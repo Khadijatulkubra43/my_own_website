@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  .topnavbar {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+  }
+  .top-icons {
+    margin-left: 20px;
+  }
+  .top-icons i {
+    font-size: 20px;
+    color: white;
+    margin: 6px;
+    cursor: pointer;
+  }
+  .other-links {
+    margin-right: 20px;
+  }
+  .other-links i {
+    color: white;
+    margin-left: 10px;
+  }
+  #login {
+    width: 100px;
+    border: 2px solid #003d29;
+    border-radius: 50px;
+    color: #000;
+  }
+  #signup {
+    width: 100px;
+    border: 2px solid #003d29;
+    border-radius: 50px;
+    color: #000;
+  }
+  #login:hover {
+    background-color: #ace7d3;
+  }
+  #signup:hover {
+    background-color: #ace7d3;
+  }
+  .logo {
+    width: 60px;
+  }
+  .nav-link {
+    color: #003d29;
+  }
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnava {
+    overflow: hidden;
+    background-color:skyblue;
+    position: relative;
+  }
+  
+  .topnava #myLinks {
+    display: none;
+  }
+  
+  .topnava a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnava a.icon {
+    float: right;
+  }
+  
+  .topnava a:hover {
+    background-color:#fff ;
+    color: black;
+  }
+  
+  .active {
+    background-color: rgb(199, 222, 231);
+    color: white;
+  }
+  /*Footer*/
+footer{
+  height: 100vh;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+}
+.btnn{
+  border-color: white;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.btnn{
+  border-radius: 12px;
+  width: 200px;
+}
+.footsectext{
+  display: flex;
+  gap: 150px;
+}
+.thirteen{
+  color: #000;
+  background-color: rgb(13, 202, 114);
+  text-align: center;
+  width: 300px;
+}
+.form{
+  width: 200px;
+}
+.eleven{
+  background-color: lightgray;
+  text-align: center;
+  width: 300px;
+  color: #000;
+}
+.twelve{
+  text-align: center;
+  color: #000;
+  width: 250px;
+  background-color: rgb(211, 208, 208);
+}
+.ten{
+  text-align: center;
+  color: #000;
+  background-color: rgb(212, 208, 208);
+}
+.but{
+  background-color: white;
+  color: black;
+  text-align:center;
+  width: 200px;
+  border: white;
+  border-radius: 5px;
+  padding: 12px 20px;
+}
+  .com{
+    width: 1265px;
+    height: 200px;
+  }
+  .container{
+    margin-top: -100px;
+    font-size: large;
+  }
+  .group{
+    margin-left:390px;
+    margin-top: -160px;
+  }
+  .teem{
+    text-align: center;
+  }
+  .member{
+    display: flex;
+    gap: 150px;
+  }
+  .membr{
+    width: 200px;
+  }
+  
+  
